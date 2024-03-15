@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+EDH-LLM: Using NLP techniques to build card game decks
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+In this project, we propose a novel system for generating playable decks for the card game, "Magic: The Gathering," in the commander format (also known as EDH; Elder Dragon Highlander). This task combines hard and soft restrictions, maximizing the validity, playability, and power of a deck, in addition to an issue of scale, as there are thousands of possible cards, leading to over $10^{285}$ total possible decks. To address the holistic demands of this deck-building task in this large search space, our system features Natural Language Processing techniques, like Word2Vec, alongside a Large Language Model (LLM) in the loop. In this way, we extract the maximum utility from the semi-structured text data provided with each card. Alongside an existing heuristic for evaluating the power level of EDH decks, we also propose a new, count-based metric for predicting card synergy based on unlabeled historical play data.
